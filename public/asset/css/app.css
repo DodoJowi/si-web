@@ -1,0 +1,47 @@
+body{
+    font-family: 'Muli',sans-serif;
+}
+.gambar{
+    position: relative;
+    width: 271px;
+    height: 359px;
+    left: 590px;
+    display: block;
+    top: 128px;
+}
+.content{
+    width: 491px;
+    height: 192px;
+    position: relative;
+    display: block;
+    left: 150px;
+    bottom: 914px;
+}
+
+.navbar {
+    background: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-link:after {
+    content: '';
+    display: block;
+    width: 0px;
+    position: relative;
+    left: 0px;
+    height: 2px;
+    background: white;
+    transition: 0.4s
+}
+
+.nav-link, .nav-link:hover::after {
+    color: white;
+    width: 100%;
+  }
+  .navbar-nav>.active>a {
+    background-color: white;
+}
+
