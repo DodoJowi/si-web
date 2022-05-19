@@ -79,11 +79,12 @@
         </style>
     </head>
 <body>
-  <x-Full-Image/>
-  <x-Full-Width/>
-  <x-Services/>
-  <x-Cards/>
-  <x-Carousel/>
-  <x-Jumbotron/>
+  <x-Header/>
+  <x-Full-Width--Image/>
+  <x-Services-Category-Card/>
+  <x-Benefit-Card/>
+  <x-Mitra--Story-Card/>
+  <x-Jumbotron-Mitra/>
+  <x-Footer/>
 </body>
 </html>

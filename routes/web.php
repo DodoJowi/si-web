@@ -26,3 +26,12 @@ Route::get('Beranda', function  () {
 Route::get('Produk', function  () {
 	return view('Produk');
 });
+Route::get('Mitra', function  () {
+	return view('Mitra');
+});
+Route::get('Karir', function  () {
+	return view('Karir');
+});
+Route::get('About', function  () {
+	return view('About');
+});

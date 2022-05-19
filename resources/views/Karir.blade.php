@@ -78,10 +78,12 @@
         </style>
     </head>
 <body>
-  <x-Full-Image/>
-  <x-Width/>
-  <x-Many-Card/>
-  <x-Carousel/>
-  <x-Jumbotron2/>
+  <x-Header/>
+  <x-Full-Container--Image/>
+  <x-Principle-List-Card/>
+  <x-Employee--Story-Card/>
+  <x-Facility-Card/>
+  <x-Jumbotron-karir/>
+  <x-Footer/>
 </body>
 </html>
