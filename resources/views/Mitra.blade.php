@@ -35,46 +35,52 @@
             body {
                 background: hsl(0, 0, 94%);
             }
-    }
-    .owl-carousel .owl-nav {
-      overflow: hidden;
-      height: 0px;
-    }
-    .owl-theme .owl-dots .owl-dot.active span,
-    .owl-theme .owl-dots .owl-dot:hover span {
-      background: #5110e9;
-    }
+        }
+            .owl-carousel .owl-nav {
+              margin: 0 !important;
+              overflow: hidden;
+              height: 0px;
+            }
+            .owl-theme .owl-dots .owl-dot.active span,
+            .owl-theme .owl-dots .owl-dot:hover span {
+              background: #5110e9;
+            }
+            .owl-theme .owl-dots {
+              position: relative;
+              bottom: 7em;
+            }
+            .owl-carousel .item {
+              text-align: center;
+            }
+            .owl-carousel .nav-button {
+              cursor: pointer;
+              position: absolute;
+              top: 110px !important;
+            }
+            .owl-carousel .owl-prev.disabled,
+            .owl-carousel .owl-next.disabled {
+              pointer-events: none;
+              opacity: 0.2;
+            }
+            .owl-carousel .owl-prev{
 
-    .owl-carousel .item {
-      text-align: center;
-    }
-    .owl-carousel .nav-button {
-      cursor: pointer;
-      position: absolute;
-      top: 110px !important;
-    }
-    .owl-carousel .owl-prev.disabled,
-    .owl-carousel .owl-next.disabled {
-      pointer-events: none;
-      opacity: 0.25;
-    }
-    .owl-carousel .owl-prev {
-      right: 91rem;
-    }
-    .owl-carousel .owl-next {
-     left: 84.5rem;
-    }
-    .owl-theme .owl-nav [class*=owl-] {
-      color: #ffffff;
-      font-size: 39px;
-      border-radius: 3px;
-    }
-    .owl-carousel .prev-carousel:hover {
-      background-position: 0px -53px;
-    }
-    .owl-carousel .next-carousel:hover {
-      background-position: -24px -53px;
-    }
+              right: 91rem;
+            }
+            .owl-carousel .owl-next{
+
+            left: 91.5rem;
+            }
+            .owl-theme .owl-nav [class*=owl-] {
+              color: black;
+              font-size: 50px;
+              background: none;
+
+            }
+            .owl-theme .owl-nav [class*=owl-]:hover {
+              background: none;
+              color: black;
+              text-decoration: none;
+            }
 
         </style>
     </head>
