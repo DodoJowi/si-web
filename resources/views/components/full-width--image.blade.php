@@ -1,3 +1,6 @@
-<div>
-    <!-- Walk as if you are kissing the Earth with your feet. - Thich Nhat Hanh -->
+
+<div class="container-fluid">
+    <div class="row">
+        <img class="img-fluid p-0" src="{{ URL('images/image(1).jpeg ') }}" >
+    </div>
 </div>
