@@ -4,7 +4,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link rel="stylesheet" href="{{asset('asset/css/app.css')}}" />
         <!-- ===== Link Swiper's CSS ===== -->
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
         <!-- Bootstrap CSS -->
@@ -22,20 +22,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
         <title>Owl Carousel</title>
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-            * {
-                font-family: 'Poppins', sans-serif;
-            }
-
-            img {
-                height: 280px;
-            }
-
-            body {
-                background: hsl(0, 0, 94%);
-            }
-        }
+           
+        
             .owl-carousel .owl-nav {
               margin: 0 !important;
               overflow: hidden;
@@ -84,7 +72,7 @@
         </style>
     </head>
 <body>
-  <x-Header/>
+  <x-Header--Karir/>
   <x-Full-Container--Image/>
   <x-Principle-List-Card/>
   <x-Employee--Story-Card/>

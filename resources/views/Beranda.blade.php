@@ -13,7 +13,7 @@
     <title>telaso</title>
   </head>
   <body>
-    <x-header />
+    <x-header--Beranda />
     <x-home-vidio />
     <x-list />
     <x-jumbotron />
