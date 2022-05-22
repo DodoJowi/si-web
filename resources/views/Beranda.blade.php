@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{asset('asset/css/app.css')}}" />
     <link rel="stylesheet" href="{{asset('asset/js/app.js')}}" />
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-    <title>telaso</title>
+    <title>911 cars</title>
   </head>
   <body>
     <x-header--Beranda />

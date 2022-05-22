@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{asset('asset/css/app.css')}}" />
         <!-- ===== Link Swiper's CSS ===== -->
-        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -78,7 +78,7 @@
         </style>
     </head>
 <body>
-  <x-Header--Mitra/>
+  <x-header--Mitra />
   <x-Full-Width--Image/>
   <x-Services-Category-Card/>
   <x-Benefit-Card/>

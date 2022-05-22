@@ -46,9 +46,9 @@
           <div class="col">
           <div class=" border p-5">
         </div>
-        <h6 class="text-uppercase fw-bold mx-4 pt-4"> unduh aplikasi</h6>
-        <button type="button" class="btn"  style="background-color: #C50F1C; color: #FFFFFF; font-size: 12px;  align-items: center; margin: 13px 5px 0px -21px;"> <img src="{{ ('asset/img/play.png') }}" style="color: #FFFFFF; margin-right: 18px; width:20px; height: 20px; " >Play Store</button>
-        <button type="button" class="btn"  style="background-color: #C50F1C; color: #FFFFFF;  font-size: 12px;  align-items: center; position: relative; bottom: 35px; left: 113px;">  <img src="{{ ('asset/img/ple.png') }}" style="color: #FFFFFF; margin-right: 18px; font-size: 20px; width:20px; height: 20px;" ></i>App Store</button>
+        <h6 class="text-uppercase fw-bold mx-5 pt-4"> unduh aplikasi</h6>
+        <button type="button" class="btn"  style="background-color: #C50F1C; color: #FFFFFF; font-size: 12px;  align-items: center; margin: 13px 5px 0px -3px;"> <img src="{{ ('asset/img/play.png') }}" style="color: #FFFFFF; margin-right: 18px; width:20px; height: 20px; " >Play Store</button>
+        <button type="button" class="btn"  style="background-color: #C50F1C; color: #FFFFFF;  font-size: 12px;  align-items: center; position: relative; top: 8px; left: 18px;">  <img src="{{ ('asset/img/ple.png') }}" style="color: #FFFFFF; margin-right: 18px; font-size: 20px; width:20px; height: 20px;" ></i>App Store</button>
       </div>
     </div>
   </section>

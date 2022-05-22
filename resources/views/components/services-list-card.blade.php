@@ -21,7 +21,7 @@
     <div class="row mt-5 ">
         <?php foreach ( $datas as $data) : ?>
             <div class=" col-lg-3 " >
-                <div class="card mt-5 text-start border" style="width: 255px; border-radius: 30px; background:{{$data['color']}}; border: 2px solid {{$data['color']}}; height:  494px; margin-right: 20px;">
+                <div class="card mt-5 text-start border" style="width: 297px; border-radius: 30px; background:{{$data['color']}}; border: 2px solid {{$data['color']}}; height:  494px; ">
                     <img class="card-img-top mx-auto" src="{{$data['img']}}" alt="Card image cap" style=" width:200px; height:200px; margin: 32px 0px;">
                     <div class="card-body p-0" style="margin: 0 32px 0 32px">
                         <h3 class="card-title"style="margin: 18px 0px; font-size: 28px;">{{$data['image']}}</h3>

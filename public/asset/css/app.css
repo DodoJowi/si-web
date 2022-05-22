@@ -1,11 +1,11 @@
 body{
-    font-family: 'Muli',sans-serif;
+    font-family: Verdana;
 }
 .gambar{
     position: relative;
     width: 271px;
     height: 359px;
-    left: 590px;
+    left: 648px;
     display: block;
     top: 128px;
 }
@@ -22,6 +22,7 @@ body{
     background: #000000;
     position: fixed;
     top: 0;
+    font-size: 18px;
     width: 100%;
     z-index: 1;
 }
@@ -33,15 +34,16 @@ body{
     position: relative;
     left: 0px;
     height: 2px;
-    background: white;
+    background: #FFD700;
     transition: 0.4s
 }
 
 .nav-link, .nav-link:hover::after {
-    color: white;
+    color: #FFD700;
     width: 100%;
   }
   .navbar-nav>.active>a {
-    background-color: white;
+    background-color: #FFD700;
+    width: 100%;
 }
 
