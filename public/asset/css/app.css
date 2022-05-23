@@ -42,8 +42,8 @@ body{
     color: #FFD700;
     width: 100%;
   }
-  .navbar-nav>.active>a {
-    background-color: #FFD700;
-    width: 100%;
+  .nav-link>.active>a {
+    color: #FFD700;
+    
 }
 
