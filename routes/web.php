@@ -35,3 +35,7 @@ Route::get('Karir', function  () {
 Route::get('About', function  () {
 	return view('About');
 });
+Route::get('tester', function  () {
+	return view('tester');
+});
+

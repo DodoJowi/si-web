@@ -23,7 +23,10 @@
         <title>Owl Carousel</title>
         <style>
            
-        
+           img {
+                height: 280px;
+            }
+            
             .owl-carousel .owl-nav {
               margin: 0 !important;
               overflow: hidden;

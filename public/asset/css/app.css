@@ -34,16 +34,15 @@ body{
     position: relative;
     left: 0px;
     height: 2px;
-    background: #FFD700;
+    background: black;
     transition: 0.4s
 }
 
 .nav-link, .nav-link:hover::after {
-    color: #FFD700;
+    color: black;
     width: 100%;
   }
-  .nav-link>.active>a {
-    color: #FFD700;
+  .navbar-nav>.active>a {
+    text-decoration: underline;
     
 }
-
