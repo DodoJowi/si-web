@@ -7,7 +7,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{asset('asset/css/app.css')}}" />
         <!-- ===== Link Swiper's CSS ===== -->
-  
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
@@ -21,7 +20,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
         <title>Mitra</title>
         <style>
-            img {
+            /* img {
     height: 280px;
 }
 .owl-carousel .owl-nav {
@@ -72,6 +71,17 @@ left: 91.5rem;
 
 .owl-carousel .owl-stage {
   margin-left: -21em;
+} */
+@media (min-width: 650px) { 
+  .containerMobile {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) { 
+  .containerDesktop {
+    display: none;
+  }
 }
         </style>
     </head>

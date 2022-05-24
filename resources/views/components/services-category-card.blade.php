@@ -26,24 +26,36 @@
         </div>
     </div>
 </div> --}}
-
+{{-- <div class="container">
     <div class="row p-0">
-        <div class=" col-xs-4 col-md-4 col-sm-4">
+        <div class=" col-xs-4 col-sm-4 col-md-4 ">
             <div class="thumbnail" style="background: #F8AF9E; height:450px;border-radius: 54px">
-                
+                <div class="caption">
+                    <h1></h1>
+                    <p>
+                    </p>
+                </div>
             </div>
         </div>
-        <div class=" col-xs-4 col-md-4 col-sm-4">
+        <div class=" col-xs-4  col-sm-4 col-md-4">
             <div class="thumbnail" style="background: #F9F498; height:450px;border-radius: 54px">
-                
+                <div class="caption">
+                    <h1></h1>
+                    <p>
+                    </p>
+                </div>
             </div>
         </div>
-        <div class=" col-xs-4 col-md-4 col-sm-4">
+        <div class=" col-xs-4  col-sm-4 col-md-4">
             <div class="thumbnail" style="background: #D9F7A1; height:450px;border-radius: 54px">
-                
+                <div class="caption">
+                    <h1></h1>
+                    <p>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-
+</div> --}}
 
 
