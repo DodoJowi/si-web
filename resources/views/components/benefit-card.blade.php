@@ -13,7 +13,7 @@
         <h1 class="text-center">Keuntungan bergabung bersama kami</h1>
         <div class="row pt-5">
             <?php foreach ( $datas as $data) : ?>
-                <div class="col-3">
+                <div class="col-md-3 col-xs-4">
                     <div class="card vw-70 h-100" >
                         <img src="{{$data['img']}}" alt="Card image cap" class="vw-30">
                         <div class="card-body">

@@ -1,9 +1,9 @@
-<div class="container-fluid p-0" style="overflow-x: hidden">
+<div class="container-fluid body-content p-0" style="overflow-x: hidden">
     <h1 class="text-center">Cerita mitra kami</h1>
     <div class="row pt-5" >
-        <div class="col-md-12" >
+        <div class=" col-md-12 col-xs-12" >
             <div class="owl-carousel owl-theme mr-3">
-                <div class="item mb-4"style="margin-left: 89.445px;width:488px;height:488px;">
+                <div class="item mb-4">
                     <div class="card border-0 shadow">
                         <img src="1.jpg" alt="" class="card-img-top">
                         <div class="card-body">
@@ -14,7 +14,7 @@
                     </div>
                 </div>
 
-                <div class="item" style="margin-left: 89.445px;width:488px;height:488px;">
+                <div class="item">
                     <div class="card border-0 shadow">
                         <img src="3.jpg" alt="" class="card-img-top">
                         <div class="card-body">
@@ -24,7 +24,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item"style="margin-left: 89.445px;width:488px;height:488px;">
+                <div class="item">
                     <div class="card border-0 shadow">
                         <img src="4.jpg" alt="" class="card-img-top">
                         <div class="card-body">
@@ -34,7 +34,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item"style="margin-left: 89.445px;width:488px;height:488px;">
+                <div class="item">
                     <div class="card border-0 shadow">
                         <img src="5.jpg" alt="" class="card-img-top">
                         <div class="card-body">
@@ -44,7 +44,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item"style="margin-left: 89.445px;width:488px;height:488px;">
+                <div class="item">
                     <div class="card border-0 shadow">
                         <img src="6.jpg" alt="" class="card-img-top">
                         <div class="card-body">
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item"style="margin-left: 89.445px;width:488px;height:488px;">
+                <div class="item">
                     <div class="card border-0 shadow" >
                         <img src="7.jpg" alt="" class="card-img-top">
                         <div class="card-body">
@@ -82,7 +82,8 @@ integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIUR
 crossorigin="anonymous"></script>
 <script>
 $('.owl-carousel').owlCarousel({
-    margin: 15,
+    margin: 10,
+    center: true,
     nav: true,
     navText: ["<div class='nav-button owl-prev'>‹</div>", "<div class='nav-button owl-next'>›</div>"],
     responsive: {
@@ -96,7 +97,6 @@ $('.owl-carousel').owlCarousel({
             items: 3
         }
     }
-
 })
 </script>
 </body>

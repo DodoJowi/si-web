@@ -35,7 +35,7 @@
 }
 .owl-theme .owl-dots {
   position: relative;
-  bottom: 7em;
+  
 }
 .owl-carousel .item {
   text-align: center;
@@ -69,15 +69,18 @@ left: 91.5rem;
   color: black;
   text-decoration: none;
 }
+
+.owl-carousel .owl-stage {
+  margin-left: -21em;
+}
         </style>
     </head>
 <body>
-  <x-header--Mitra />
   <x-Full-Width--Image/>
   <x-Services-Category-Card/>
   <x-Benefit-Card/>
   <x-Mitra--Story-Card/>
   <x-Jumbotron-Mitra/>
-  <x-Footer/>
+  
 </body>
 </html>

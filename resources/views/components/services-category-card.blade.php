@@ -7,12 +7,12 @@
     ];
 @endphp
 
-<div class="my-5">
+{{-- <div class="my-5">
     <div class="container">
         <h1 class="text-center">Layanan mitra kami</h1>
         <div class="row mt-5">
             <?php foreach ( $datas as $data) : ?>
-                <div class="col-4">
+                <div class="col-md-4 col-xs-4">
                     <div class="card" style="border-radius: 54px; background:{{$data['color']}};">
                         <img class="card-img-top" src="{{$data['img']}}" alt="Card image cap" style=" width:240px; height:238px; margin: 13px 55.5px 18px 87.5px">
                         <div class="card-body">
@@ -25,9 +25,25 @@
             <?php endforeach; ?>
         </div>
     </div>
-</div>
+</div> --}}
 
-
+    <div class="row p-0">
+        <div class=" col-xs-4 col-md-4 col-sm-4">
+            <div class="thumbnail" style="background: #F8AF9E; height:450px;border-radius: 54px">
+                
+            </div>
+        </div>
+        <div class=" col-xs-4 col-md-4 col-sm-4">
+            <div class="thumbnail" style="background: #F9F498; height:450px;border-radius: 54px">
+                
+            </div>
+        </div>
+        <div class=" col-xs-4 col-md-4 col-sm-4">
+            <div class="thumbnail" style="background: #D9F7A1; height:450px;border-radius: 54px">
+                
+            </div>
+        </div>
+    </div>
 
 
 
