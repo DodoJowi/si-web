@@ -8,10 +8,10 @@
     ];
 @endphp
 <div class="my-5">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row" style="margin-left: 155px;margin-right: 155px;">
             <?php foreach ( $datas as $data) : ?>
-                <div class="col-6">
+                <div class="col-md-6 col-lg-6 col-sm-6">
                     <div class="card flex-row flex-wrap mt-5" style="width:540px;height:224px">
                         <img src="{{$data['img']}}" alt="Card image cap" style=" width:184px; height:184px;margin: 20px 18px 20px 17px;" class="img-fluid">
                         <div class="card-block px-2" style="padding-left: 0 !important;">
