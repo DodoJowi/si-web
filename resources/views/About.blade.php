@@ -47,11 +47,11 @@
   integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
   crossorigin="anonymous"></script>
 
-  
+  <x-header--about/>
   <x-Full-Container--Image-About/>
   <x-Pillar-List-Card/>
   <x-Jumbotron-Coverage/>
   <x-Jumbotron-About/>
-
+  <x-Footer/>
 </body>
 </html> 

@@ -6,7 +6,7 @@
                     <h1 class="text-white pb-4 " style=" font-size:52px; font-weight:800">Tertarik Bergabung bersama kami?</h1>
                 </div>
                 <div class="col-md-6 ms-md-4">
-                    <img src="{{ ('asset/img/image(21).png') }}" alt="Card image cap" style=" width:747px; height:747px;" class="">
+                    <img src="{{ ('asset/img/image(21).png') }}" alt="Card image cap" style=" width:747px; height:747px;position: relative;left: 461px;bottom: 399px;" class="">
                 </div>
             </div>
         </div>

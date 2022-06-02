@@ -1,28 +1,37 @@
-<nav class="navbar navbar-expand bg-light w-100" style=" height: 108px;">
-  <div class="container " style="margin: 20px 113px 20px 85px; width: 192px;">
-    <img src="{{ ('asset/img/logo.png') }}"  class=" bg-light" style="width: 192px; height: 68px;">
-    <ul class="navbar-nav" style="margin: 20px 117px 20px 140px;">
-      <li class="nav-item  ">
-        <a class="nav-link px-4" style=" color: #8B8B8B;" href="Beranda">Beranda</a>
-      </li>
-      <li class="nav-item " style="width: 219px;">
-        <a class="nav-link  px-4" style=" color: #8B8B8B;"  href="Mitra">Gabung jadi Mitra</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link  px-4" style=" color: #8B8B8B;" href="Karir">Karir</a>
-      </li>
-      <li class="nav-item " style="width: 231px; ">
-        <a class="nav-link  px-4" style=" color: #8B8B8B;" href="About">Tentang Perusahaan</a>
-      </li>
-      <li class="nav-item ">
-        <a class="nav-link  px-4" style=" color: #8B8B8B;" href="Produk">Produk</a>
-      </li>
-      <li class="nav-item ">
-        <a class="nav-link  px-4" style=" color: #8B8B8B;" href="#">Blog</a>
-      </li>
-      <li class="nav-item ">
-        <a class="nav-link  px-4" style=" color: #8B8B8B;" href="#">Bantuan</a>
-      </li>
-    </ul>
-  </div>
-</nav> 
+<header class="header">
+  <nav class="navbar navbar-expand-lg  bg-light header-nav fixed-top">
+      <div class="container-fluid mx-md-5 mx-sm-5 mx-lg-6 mx-xl-5 mx-1 ">
+          <a class="navbar-brand mx-md-5 mx-sm-5  mx-lg-6 mx-2 col-md-2  " href="#"><img src="{{ ('asset/img/logo.png') }}"  class=" bg-light" style="width: 192px; height: 68px;"></a>
+          <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="toggler-icon top-bar"></span>
+              <span class="toggler-icon middle-bar"></span>
+              <span class="toggler-icon bottom-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between mx-md-3 mx-3" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto mb-2 mb-lg-0 ms-md-4 ms-lg-4 ms-sm-4">
+                  <li class="nav-item me-md-4">
+                      <a class="nav-link" href="Beranda">Beranda</a>
+                  </li>
+                  <li class="nav-item me-md-4">
+                      <a class="nav-link" href="Mitra">Gabung jadi Mitra</a>
+                  </li>
+                  <li class="nav-item me-md-4">
+                      <a class="nav-link" href="Karir">Karir</a>
+                  </li>
+                  <li class="nav-item me-md-4">
+                      <a class="nav-link" href="About">Tentang Perusahaan</a>
+                  </li>
+                  <li class="nav-item me-md-4">
+                      <a class="nav-link" href="Produk">Produk</a>
+                  </li>
+                  <li class="nav-item me-md-4">
+                      <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item me-md-4">
+                      <a class="nav-link" href="#">Bantuan</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+</header>

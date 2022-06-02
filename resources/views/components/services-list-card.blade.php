@@ -16,19 +16,22 @@
   ];
 @endphp
 
-<div class="container  text-center" style="">
-    <h1 class="mt-5">Layanan kami</h1>
-    <div class="row mt-5 ">
-        <?php foreach ( $datas as $data) : ?>
-            <div class=" col-lg-3 " >
-                <div class="card mt-5 text-start border" style="width: 297px; border-radius: 30px; background:{{$data['color']}}; border: 2px solid {{$data['color']}}; height:  494px; ">
-                    <img class="card-img-top mx-auto" src="{{$data['img']}}" alt="Card image cap" style=" width:200px; height:200px; margin: 32px 0px;">
-                    <div class="card-body p-0" style="margin: 0 32px 0 32px">
-                        <h3 class="card-title"style="margin: 18px 0px; font-size: 28px;">{{$data['image']}}</h3>
-                        <p class="card-text" style="margin: 18px 0px; font-size: 18px;">{{$data['text']}}</p>
+<h1 class="text-center pt-5 pb-5 mt-5">Layanan kami</h1>
+<div class="mt-5">
+    <div class="desktop">
+        <div class="container ">
+            <div class="row ">
+                <?php foreach ( $datas as $data) : ?>
+                    <div class="col-md-3 col-sm-3 col-lg-3 mb-5">
+                        <div class="card vw-70 h-100 " >
+                            <img src="{{$data['img']}}" alt="Card image cap" class="w-75 h-auto m-4">
+                            <div class="card-body">
+                                <h3 class="card-title" style="margin: 2rem 1rem;">{{$data['image']}}</h3>
+                                <p class="card-text" style="margin: 1vh 2.5vh">{{$data['text']}}</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                <?php endforeach; ?>
             </div>
-        <?php endforeach; ?>
+        </div>
     </div>
-</div> 
