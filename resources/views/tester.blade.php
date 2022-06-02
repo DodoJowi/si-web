@@ -83,4 +83,4 @@ left: 91.5rem;
   <x-Jumbotron-Mitra/>
   <x-Footer/>
 </body>
-</html>
+</html> 

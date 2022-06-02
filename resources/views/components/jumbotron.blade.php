@@ -5,4 +5,4 @@
       <button type="button" class="btn" style="background-color: #CCCCCC; margin-top: 34px;">Gabung</button>
     </div>
   </div>
-</div>
+</div> 

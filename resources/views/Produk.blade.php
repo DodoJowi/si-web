@@ -18,4 +18,4 @@
     <x-jumbotron-img />
     <x-footer />
   </body>
-</html>
+</html> 

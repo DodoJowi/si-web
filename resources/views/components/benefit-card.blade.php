@@ -71,4 +71,4 @@ $('.owl-carousel').owlCarousel({
     }
   }
 });
-</script>
+</script> 

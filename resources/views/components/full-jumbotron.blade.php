@@ -14,4 +14,4 @@
       <button type="button" class="btn"  style="background-color: #C50F1C; color: #FFFFFF; border-radius: 32px; width: 193px; height: 56px; font-size: 20px;  align-items: center; margin-top: 30px;"> <i class='bx bxl-play-store' style="color: #FFFFFF; margin-right: 23px;" ></i>Play store</button>
     </div>
   </div>
-</div>
+</div> 

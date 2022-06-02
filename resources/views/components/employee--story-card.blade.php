@@ -87,5 +87,5 @@ $('.owl-carousel').owlCarousel({
 })
 </script>
 </body>
-
-</html>
+</html> 
+ 

@@ -5,4 +5,4 @@
             <img class="img-fluid p-0" src="{{ ('asset/img/image(1).jpeg') }}" style="width:95em">
         </div>
     </div>
-</div>
+</div> 

@@ -7,4 +7,4 @@
   <div>
   <img src="{{ ('asset/img/vektor.PNG') }}" class=" container" style="width: 690px;  height: 575px;  position: relative; bottom: 104px; left: 688px;">
   </div>
-</div> 
+</div>  
